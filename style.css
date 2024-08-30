@@ -2,3 +2,79 @@
 
 *{ margin: 0; padding: 0;}
 
+body{
+    background-color: white;
+    font-family: 'Roboto' , sans-serif;
+    margin: 0px 12px ;
+}
+
+.topbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.representacoes{
+    padding: 29px 104px 18px 86px;
+}
+
+.representacoes > h1{
+    height: 43px;
+    width: 220px;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 0px;
+}
+.representacoes > hr{
+    width: 375px;
+    height: 1px;
+    background-color: black;
+    margin-left: -80px;
+    margin-top: -12px;
+}
+
+.busca-box{
+    width: 300px;
+    height: 51px;
+    background-color: #D9D9D9;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 30px;
+    margin: 40px 32px 16px;
+    padding: 10px;
+
+}
+
+.busca-box .lupa-busca{
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.busca-box .lupa-busca i{
+    font-size: 30px;
+}
+
+.busca-box .btn-busca{
+    position: absolute;
+    left: 60px;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
+    
+
+}
+.busca-box .btn-busca input{
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    background-color: transparent;
+    text-align: center;
+}
+
