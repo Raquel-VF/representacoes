@@ -25,8 +25,43 @@
         <div class="lupa-busca"><i class="bi bi-search"></i></div>
         <div class="btn-busca"> <input type="text" name="" id="" placeholder="Busca"></div>
       </div>
-      <div class="home">
+      <div class="escolha">
+        <div class="regiao"></div>
+          <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <rect width="90" height="90" fill="url(#pattern0_1_11)"/>
+          <defs>
+          <pattern id="pattern0_1_11" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image0_1_11" transform="scale(0.0111111)"/>
+          </pattern>
+          <image id="image0_1_11" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAACbElEQVR4nO2bMU4cQRBFX2ABB0AgS464gC/g3FyAC0CIsHP7AvYBfAHn9gU4AItEQEqGA+PYWjILldVSI69Gu2z3uqe7evhPqmTVmq16qqnpmd0BIYQQQgiRxhbwGbgDfgKf4mel1otIEGWDCJ+VWi8id0vE/aLc+u7YAk6BC+B+UOgc+AYcA/uZx7UVUWp9V7wErp4ocjEegBnwEXidcGyJXujkq0TJy+IH8AU4BHYkejWn/yF5GGHkfAdOFkaMOjoyKyh6OGIuJfof85FEr4tSM70bbE1h28DbOIdvC4p+3MXsZebTLZZZWNhpfIgj56HQiJnFY4ZjS/QSdoEj4Cvwu9Go6QYrVNgL4E28Xb6R6PFEDzkA3gPnwB91dJ1TdbfAiOkeq1zYpiOme6xxYakjpnvMUWF7zvIpijkrzFs+ky3MnOUz2cLMWT7NCrNG6596NBtu4d/F5zJusc5FL8Y18Aqn2IREP8p22dk2MdEhznCITVB0+CXfHTZB0eFXI3dYpghv+XjLv5tETaLrINGVkOhKSHQlJLqj7d0kdh0m0RJtNTs69x0QU0dvRu47ICbRm5H7DohJ9GZ0cxXufXsn0Uh0CuroSkh0JSS6Et2LLhX3mf+jmOyzDqsY1wn/o5DogrK3JbpOZ59JdB3RFxJdR/RcotdfhW3k9bl4y6dZoibREm3q6HS8nWHNEjWNDok2Dx09dqyi1PpS+RRDopFoU0ej0aHRgWa06WKoffTo6IYF3Rmm4O1OtVmipltwiTZ1dDrezrDsL35uMTqtCzQnIdFINK27UB1Ne3EaHTzTGS2EEEIIIYQQ1OAvmQ++YlrX5VQAAAAASUVORK5CYII="/>
+          </defs>
+          </svg>
+          <p>Região</p>
+          
+        <div class="representante"></div>
+          <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <rect width="90" height="90" fill="url(#pattern0_1_13)"/>
+          <defs>
+          <pattern id="pattern0_1_13" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image0_1_13" transform="scale(0.0111111)"/>
+          </pattern>
+          <image id="image0_1_13" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAAFYElEQVR4nO2cW2gdRRjHf2nUaJt6C/RBFFsr1suTN3wSW7W2VYoi2hfxVrwUxaJPIigoIkitaK1WRFFBIypFUFColyqpRIm1KlUaLWoSDaJGxWtNa1z54Fs5hDOzuyezu3PmzA/+EE52d87+z+y3M99cIBKJRCKRSCQSiUQihVkIrAYeB94GRoGfgX3AH8CIfn4ncHLxy3c2s4EbgQ+BpKDeBE6q+wZ8pwu4BvixBYMbtQe4rO6b8ZU+YMsMDW7UFHBh3TflG0cCux2anEqejLXASmAeHc5hwHAJJk/X38DTwBF0aEx+tQKTGzUOnE6HcUXFJqf6CTiaDqEH+LYmo0Xv0CFcW6PJqZbSAbzngdFvEDjzPDA50W784QTMRR6YnCroHuR9Hhic6gECZqsHBqeSbn+w7PTA4FRfEjDjHhjcmA8Jlj0eGNyYAwmW3z0wONVvBMznHhicSr5LsGzxwOBUbxEwd3hgcKq7CJgzPDA41VkEzi4PTP4KmEXgbPTA6IcJnCU6Sl230fIdFhMwr3hgcqqXCZidHhic6hMC5n0PDE4lIz3B8pgHBqfaRMCc74HBqZYTOO96YPKgTuIJmgXAxzWa/BEwnw5iQw0mBz1OaGJlReb+qj3BMzuh292MA4DvSzRYrn0LMLdp6R3GrSVNjlkH9NZ9c76tWfnaoclfAKfUfVO+stRRoklyFzFMZHC7g15eN/mbl2uAfmAHMAHsVU3oZ/16jBwbFF3A8y2a/GiOzoe0NlYB24B/C1xbjh0ALg2pxbIf8EgL4SLLgLOBzxyEpk9Dy2EnObUrIyYf2MIPl6eGb9RVC21PkkOTGa2LvpJTsoNaRluT5NA9lvP79DEvy+TGUNLWZicZkoVGcyzhIk9NHtFcy3nAIr3eHP17mf5vJGfNbtswkmToJsu5WTFZdki4MmcLQo65ChgLdUQ9sUjauQdZWhe2c1/UnmhRpKZvznhByuh+W3FOhlkPGs7rzmjCrZthol/OXZ8Rr9umnT07xz4dpiXGqzJqsovRlK6Mmi2dGu85WDc2sZk8bjFsmyUmtxIubGHEFLOlB+ktXcAlOZcsP2u4xgJLt1pefK652hKr5/u4sPOGghMeZf+NZqwxHD9SUtzs1ielWZnX4ckmKGt10fs/BQxOda7huv2G46UtXPVEzWeoiROB24ChglmzZjrWUMYOw/HS8SiLFYYyt1MhJwD3lrBe5RBDeROG448r8R4XGcr8gQpeaheXPDlmf0PZk4bjyxxtmVvHkrplOjOzLIOTNjL6zzIKOxR4qgKDE5WU53vokJaOU46qYS3KwoIvw+U1TNb8wGUhx1jakXVsz9PvUfNO9lF1Qk+L+4YmDtRKhyXvyHgRui3d8MtdFfJQTSYnwHMtdMEln+ya1YayprRT5iRk7KvR6HFLUmnAcM6YZTSmFWSa2TeGsl5zVcimGk1OVLLytmia9CVHOQ/5kV+wlCMvyBkjqca/PDB6g+H7zcoYkF3vIPF/v+X6Q64SWFkjH1XpF0t+eXFGPmVzi2GkV5+KxBKbT8MRd3tgcqK6eQbLn8c0n5ynNdKtLz5TTE417HIk/HUPDE5U31lqZo9OAci6xqj+KNKpOV5rba/+vUJHtrNGv6e/CJ2YXefinsQw2Gqir6YVuk7Mznp8qtZe4NQMswfb0WwfWhzJNO3WQV0TPRoCZjrgMP3FN1xVGGk3ljiaizekrYseNTOa3YRZOu9ioGANn1JTL5jWTo5m50CmBFyvA6nbNZ89qUn7Ua25T2iCyJa7iGZXSDTbM7NNcwYjjs2WrUIjFZgtm99GKjD7SZeFRPjfbInJEi6kJovJvf8BQbvXna9raxkAAAAASUVORK5CYII="/>
+          </defs>
+          </svg>
+          <p>Representante</p>
+          
 
+        <div class="empresa"></div>
+          <svg width="90" height="90" viewBox="0 0 90 90" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+          <rect width="90" height="90" fill="url(#pattern0_2_107)"/>
+          <defs>
+          <pattern id="pattern0_2_107" patternContentUnits="objectBoundingBox" width="1" height="1">
+          <use xlink:href="#image0_2_107" transform="scale(0.0111111)"/>
+          </pattern>
+          <image id="image0_2_107" width="90" height="90" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABaCAYAAAA4qEECAAAACXBIWXMAAAsTAAALEwEAmpwYAAADRklEQVR4nO1csW4TURCcBjsRX4CIiHt+Ih9AxC9YaVIkcT4D0yCU0PMp6XDcYChS0+BYggri/qGTHuJkGd3uZd/t2p6RXmM9ze7Ozc3FvtwBBEEQBEEQBEEQW4g9AJcApgCWANKWriWAWwAjAP2uRT4A8DWACKnj9SXP3pmTd1HkVBO7E2dfBhg2Oa+LLoSeBhg0Oa9JF0I/BBg0Oa9Kg+LwHjIFWRQaFBreLtwYRw8FDdwIeAaFhpFwVrWbcCPgqbQogpfCb4BHRgcstegxGQl0JOBZZk1M8RTAnZGbK3x0FLqqDSNX32VtzCAVRuLmCt8cha5qw8jVmgNndppL3TwQ8pUSWprTUldL48gklzVuHgYQemjs6kfltTSXNW7WxFBJoTWnu9TVrfNaI4jUzZp8Lim0NKc1rtYeQPXprXHzQMFbUmhNTmtcrcprTS5r3TwMJPSwkKtFea3JZa2btXFUWmjtaa5xdWNea4XQuFmbz6WF1uS01tWNB1LzW/OvFkI8BOL/7dn/tPBdhmkg/lvP/kcKovMWjY4C8V949t/Pd3mbSGYAei0a7ZP/Hw4axK5Eft5C5Cj8nwE8i9J/P59ak3wBqNanfDq0cXIE/knm729A/wRBEMQG4AmAEwBnwotLD8Cp4mLUz3vPCu3fy/tPhRevv/wnefZi2AfwAsAxgHcA5rU/Z34AuAbwOv/0uL+y/z2AxX/2H9b2H+bPrvOe+v4rg/2D/NkHAD9r+xe5x+Pc8+r+Vf551uBVbb8ZpN+GdnWZwXuQFHxRaFBoeLuQjoa/cIwO+IvKjAaFhrfj6Gj4i7TR0VECKUAtCm0MCg06mtFhAWY0mNElwIwGM5oZbQFmNJjRJcCMBjOaGb0Jp1IPwFsA9/ku83jNvwFIakl4IszrVni8hmMs7EHLE2Fet8L3azgWwh60PBHmdSs8X8PxXdiDlifCvG6Fx2s43gh70PJEmNetcC+LNDe4GDbxRJg3XuEaItSi0Mag0KCjGR0WYEaDGV0CbsbSvvi1BFKAWlYvBzB7lXEJpAC1ir/iWPOw+a4JfW5ZWPqw/K4JPSvxSHLTw+a7JvTskS8HUD1sHmH4Lmvx4XqCIAiCIAiCILB1+ANXK2xLJsNQwAAAAABJRU5ErkJggg=="/>
+          </defs>
+          </svg>
+          <p>Empresa</p>
       </div>
     </div>
   </body>

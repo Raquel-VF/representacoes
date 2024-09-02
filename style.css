@@ -78,3 +78,12 @@ body{
     text-align: center;
 }
 
+.escolha{
+    background-color: aqua;
+}
+
+.escolha .regiao{
+    background-color: gray;
+    height: 100px;
+    width: 100px;
+}
